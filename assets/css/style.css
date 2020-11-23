@@ -15,6 +15,8 @@
 .justify
 {
     text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #menu li
@@ -23,11 +25,28 @@
     padding: 15px;
 }
 
-#menu li a
+/*#menu li a
 {
     text-decoration: none;
-    color:black;
+     background-color: Orange;
+    color: black;
+    color:white;
     font-size: 20px;
+}*/
+
+#menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+header
+{
+    background-color: Orange;
+    border-color: white;
+    border-style: solid;
+    /*border: 2px solid;
+    border-radius: 8px;*/
 }
 
 #menu li a:hover
@@ -66,4 +85,29 @@
     margin-left: 50px;
 }
 
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.img-border
+{
+    border-color: white;
+    border-style: solid;
+
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
 /*Estilos da página contato.html*/
+
+footer
+{
+    background-color: Orange;
+    color: black;
+    border-color: white;
+    border-style: solid;
+}
