@@ -1,0 +1,109 @@
+/*Estilos da página index.html*/
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify {
+  text-align: justify;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#menu li {
+  display: inline;
+  padding: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color:black;
+  color: white;
+}
+
+/*#menu li a
+{
+    text-decoration: none;
+     background-color: Orange;
+    color: black;
+    color:white;
+    font-size: 20px;
+}*/
+
+#menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+header {
+  background-color: Orange;
+  border-color: white;
+  border-style: solid;
+  /*border: 2px solid;
+    border-radius: 8px;*/
+}
+
+#menu li a:hover {
+  color: grey;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.wh {
+  width: 300px;
+  height: 300px;
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.img-border {
+  border-color: white;
+  border-style: solid;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+/*Estilos da página contato.html*/
+
+footer {
+  background-color: Orange;
+  color: black;
+  border-color: white;
+  border-style: solid;
+}
