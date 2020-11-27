@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("field_bww.jpg");
+    /*background-repeat: no-repeat;*/
+    background-color: Black;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.mt-mb
+{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    text-align: justify;
+}
+
+#Galeria, #tw
+{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.marginBottom
+{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 200px;
+    ;
+}
+
+#blog-card
+{
+    /*font-family: 'Open Sans', sans-serif;
+    font-weight: bold;*/
+    font-size: 20px;
+}
+
+#footer
+{
+    color: white;
+}
+
+.cards{
+
+
+}
